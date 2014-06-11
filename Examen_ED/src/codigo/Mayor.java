@@ -15,7 +15,7 @@ public class Mayor {
 	}
 	
 	public void setA(int a){
-		this.b=b;
+		this.a=a;
 	}
 
 	public void setB(int b){
@@ -26,5 +26,6 @@ public class Mayor {
 	public int mayor(){
 		if(a>b) return a;
 		else return b;
+		
 	}
 }

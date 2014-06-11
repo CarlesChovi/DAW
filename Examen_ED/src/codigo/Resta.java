@@ -4,15 +4,23 @@ package codigo;
 /*
  * Clase que nos permite restar dos números enteros
  * */
+
+
 public class Resta {
 	//Inicialización
 	private int a;
 	private int b;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
 
 	//Constructor
-	public Resta() {
-		a=0;
-		b=0;
+	public Resta(int a, int b) {
+		this.a=a;
+		this.b=b;
 	}
 	
 	public void setA(int a){
@@ -20,11 +28,14 @@ public class Resta {
 	}
 
 	public void setB(int b){
-		this.a=a;
+		this.b=b;
 	}
 	
 	//Método que permite restar dos números enteros
 	public int resta(){
 		return a-b;
+		
 	}
+	
+	
 }
